@@ -220,17 +220,26 @@
       font-weight: 750;
     }
 
-    .anonymous-note {
-      display: inline-block;
-      margin: 4px auto 18px;
-      padding: 8px 16px;
-      border-radius: 999px;
-      background: rgba(106, 53, 216, 0.08);
-      color: var(--purple-dark);
-      font-size: 15px;
-      font-weight: 750;
-      letter-spacing: 0.2px;
-    }
+.author-info {
+  text-align: center;
+  margin: 12px auto 26px;
+  max-width: 950px;
+}
+
+.author-names {
+  font-size: 23px;
+  font-weight: 750;
+  color: #23232a;
+  line-height: 1.5;
+}
+
+.author-affiliation {
+  font-size: 15px;
+  font-weight: 400;
+  color: #626271;
+  line-height: 1.6;
+  margin-top: 5px;
+}
 
     .teaser-block {
       scroll-margin-top: 42px;
@@ -1348,7 +1357,15 @@
           </span>
         </div>
 
-        <div class="anonymous-note">Anonymous Submission for CoRL 2026</div>
+        <div class="author-info">
+  <div class="author-names">
+    Qilin Wu, Weichao Sun
+  </div>
+  <div class="author-affiliation">
+    The Research Institute of Intelligent Control Systems,
+    Harbin Institute of Technology, Harbin
+  </div>
+</div>
 
         <article class="teaser-block" id="introduction-overview" data-group="introduction">
           <img class="teaser-img" src="assets/teaser.png" alt="MIND-Grasp teaser overview" />
